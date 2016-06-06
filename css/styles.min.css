@@ -1,0 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+p {
+  text-align: left;
+}
+
+p:first-letter {
+  margin-left: 5vh;
+}
