@@ -5,5 +5,12 @@ html {
 
 body {
   background: #111;
-  color: #ccc;
+  color: #aaa;
+  font-family: "Inconsolata";
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, div {
+  font-family: "Inconsolata";
+  font-size: 2rem;
 }
