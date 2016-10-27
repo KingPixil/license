@@ -4,11 +4,10 @@ html {
 }
 
 body {
-  background: black;
+  background: #111;
   color: white;
 }
 
 p {
   text-align: left;
 }
-
