@@ -14,6 +14,8 @@ html {
 body, div {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 html, body, div, h1, h4, p {
@@ -55,7 +57,7 @@ a {
 .a-x-c {justify-content: center;}
 .a-t-c {text-align: center;}
 .p-y-5 {padding-top: calc(15px * var(--grain-scale)); padding-bottom: calc(15px * var(--grain-scale));}
-.m-y-3 > * {margin-top: calc(6px * var(--grain-scale)); margin-bottom: calc(6px * var(--grain-scale));}
+.m-y-3 > :not(.a-b) {margin-top: calc(6px * var(--grain-scale)); margin-bottom: calc(6px * var(--grain-scale));}
 
 @media (min-width: 512px) {
 	:root {
